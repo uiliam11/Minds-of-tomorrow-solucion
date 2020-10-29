@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+    color: black;
+}
+
+.header h1 {
+    font-size: 45px;
+}
+
+.one-column {
+    float: left;
+    width: 100%;
+    padding: 10%;
+}
+
+.one-column h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.two-column {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.two-column h1 {
+    font-size: 3vw;
+}
+
+.two-column p {
+    font-size: 2vw;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 2%;
+}
+
+.four-column img {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.four-column P {
+    text-align: center;
+}
+
+#section-2 {
+    background-color: #28ECA5;
+    text-align: center;
+}
+
+#section-5 {
+    background-color: #46A6FC;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#footer p {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/* Clases auxiliares*/
+
+.four-column-padding-0 {
+    padding: 0px;
+}
+
+@media screen and (max-width:600px) {
+    .header,
+    .one-column,
+    .two-column {
+        width: 100%;
+    }
+    .four-column {
+        width: 50%;
+    }
+}
