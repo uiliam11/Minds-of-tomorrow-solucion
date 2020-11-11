@@ -146,4 +146,8 @@ li a:hover {
     .four-column {
         width: 50%;
     }
+    ul {
+        font-size: 14px;
+        padding: 0%;
+    }
 }
