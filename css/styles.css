@@ -3,6 +3,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -12,6 +16,42 @@ body {
     display: table;
     clear: both;
 }
+
+
+/*barra de navegación*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 20px;
+    padding: 5px 15%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.8s;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: gray;
+}
+
+
+/**/
 
 .header {
     background-image: url('../img/banner-2.jpg');
@@ -23,7 +63,7 @@ body {
 }
 
 .header h1 {
-    font-size: 45px;
+    font-size: 6vw;
 }
 
 .one-column {
