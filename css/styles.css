@@ -137,11 +137,21 @@ li a:hover {
     padding: 0px;
 }
 
+.padding-30 {
+    padding-top: 30px;
+}
+
 @media screen and (max-width:600px) {
     .header,
     .one-column,
     .two-column {
         width: 100%;
+    }
+    .two-column h1 {
+        font-size: 8vw;
+    }
+    .two-column p {
+        font-size: 4.2vw;
     }
     .four-column {
         width: 50%;
