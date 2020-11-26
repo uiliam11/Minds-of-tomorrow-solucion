@@ -39,6 +39,7 @@ li {
 
 li a {
     display: block;
+    font-size: 2vw;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -84,14 +85,17 @@ li a:hover {
 }
 
 .two-column h1 {
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 .two-column p {
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .two-column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 }
 
@@ -141,10 +145,18 @@ li a:hover {
     padding-top: 30px;
 }
 
+#section-1 {
+    filter: sepia(0);
+}
+
+.padding-top-bottom {
+    padding: 10% 0;
+}
+
 @media screen and (max-width:600px) {
     .header,
     .one-column,
-    .two-column {
+    x .two-column {
         width: 100%;
     }
     .two-column h1 {
@@ -158,6 +170,34 @@ li a:hover {
     }
     ul {
         font-size: 14px;
-        padding: 0%;
+        padding: 0;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    li {
+        width: 50%;
+        float: none;
+    }
+    li a {
+        font-size: 14px;
+        display: inline-block;
+    }
+    div.scrollmenu {
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    div.scrollmenu li {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+    }
+    div.scrollmenu li:hover {
+        background-color: #777;
     }
 }
+
+
+/**/
